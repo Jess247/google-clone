@@ -2,23 +2,55 @@
 * {
     margin:0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 html {
     font-family: 'Open Sans', sans-serif;
+    font-size: .9rem;
+    background: #202124;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.nav-right , .nav-left{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-right {
+    justify-content: flex-end;
+}
+.nav-right div a:last-of-type {
+    margin-left: 1em;
 }
 
 nav .icon {
-    width: 40px;
+    width: 30px;
 }
 
 .profile-img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #BDC1C6;
 }
 
 .logo {
     width: 272px;
+}
+
+.icon {
+    width: 20px;
 }
