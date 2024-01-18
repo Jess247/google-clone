@@ -11,6 +11,11 @@ html {
     background: #202124;
 }
 
+body {
+    height: 100vh;
+
+}
+
 .navbar {
     width: 100%;
     display: flex;
@@ -47,8 +52,15 @@ nav .icon {
     color: #BDC1C6;
 }
 
+.container {
+    width: 50%;
+    margin: 10% auto;
+    text-align: center;
+}
+
 .logo {
-    width: 272px;
+    width: 330px;
+    
 }
 
 .icon {
