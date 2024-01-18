@@ -9,6 +9,7 @@
     --bg-color: #ffffff;
     --font-color: #202124;
     --secondary-color: #F2F2F2;
+    --secondary-color-light: #F8F9FA;
 }
 
 html {
@@ -105,4 +106,21 @@ nav .icon {
     background-color: #fff;
   box-shadow: 0 1px 6px rgba(32,33,36,.28);
   border-color: rgba(223,225,229,0);
+}
+
+.btn-container {
+    margin-bottom: 2em;
+}
+
+.btn {
+    padding: .6em 1.2em;
+    border: none;
+    border-radius: 5px;
+    background: var(--secondary-color-light);
+    color: var(--font-color);
+    font-size: 1rem;
+}
+
+.btn:last-of-type {
+    margin-left: .5em;
 }
