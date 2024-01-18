@@ -76,11 +76,13 @@ nav .icon {
     width: 300px;
     
 }
-
 .icon {
     width: 24px;
+}
+.icon:not(.reduced-margin ) {
     margin: 0 1em;
 }
+
 
 .searchbar-container {
     width: 100%;
@@ -113,11 +115,18 @@ nav .icon {
 
 .btn {
     padding: .6em 1.2em;
-    border: none;
+    border: 1px solid var(--secondary-color-light);
     border-radius: 5px;
     background: var(--secondary-color-light);
     color: var(--font-color);
     font-size: 1rem;
+}
+
+.btn:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
 
 .btn:last-of-type {
